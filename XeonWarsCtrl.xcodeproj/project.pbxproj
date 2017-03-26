@@ -14,6 +14,7 @@
 		75B506071E8645B6004EE7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B506051E8645B6004EE7A8 /* LaunchScreen.storyboard */; };
 		75B506121E8645B6004EE7A8 /* XeonWarsCtrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B506111E8645B6004EE7A8 /* XeonWarsCtrlTests.swift */; };
 		75B5061D1E8645B6004EE7A8 /* XeonWarsCtrlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5061C1E8645B6004EE7A8 /* XeonWarsCtrlUITests.swift */; };
+		75B506321E873B69004EE7A8 /* MotionManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B506311E873B69004EE7A8 /* MotionManagement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		75B505F91E8645B6004EE7A8 /* XeonWarsCtrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeonWarsCtrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B505FC1E8645B6004EE7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75B505FE1E8645B6004EE7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75B505FE1E8645B6004EE7A8 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75B506011E8645B6004EE7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75B506031E8645B6004EE7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B506061E8645B6004EE7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,8 @@
 		75B506181E8645B6004EE7A8 /* XeonWarsCtrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XeonWarsCtrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B5061C1E8645B6004EE7A8 /* XeonWarsCtrlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XeonWarsCtrlUITests.swift; sourceTree = "<group>"; };
 		75B5061E1E8645B6004EE7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B5062F1E873549004EE7A8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		75B506311E873B69004EE7A8 /* MotionManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManagement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 				75B506101E8645B6004EE7A8 /* XeonWarsCtrlTests */,
 				75B5061B1E8645B6004EE7A8 /* XeonWarsCtrlUITests */,
 				75B505FA1E8645B6004EE7A8 /* Products */,
+				75B5062E1E873549004EE7A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +107,7 @@
 				75B506031E8645B6004EE7A8 /* Assets.xcassets */,
 				75B506051E8645B6004EE7A8 /* LaunchScreen.storyboard */,
 				75B506081E8645B6004EE7A8 /* Info.plist */,
+				75B506311E873B69004EE7A8 /* MotionManagement.swift */,
 			);
 			path = XeonWarsCtrl;
 			sourceTree = "<group>";
@@ -123,6 +128,14 @@
 				75B5061E1E8645B6004EE7A8 /* Info.plist */,
 			);
 			path = XeonWarsCtrlUITests;
+			sourceTree = "<group>";
+		};
+		75B5062E1E873549004EE7A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75B5062F1E873549004EE7A8 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B506321E873B69004EE7A8 /* MotionManagement.swift in Sources */,
 				75B505FF1E8645B6004EE7A8 /* ViewController.swift in Sources */,
 				75B505FD1E8645B6004EE7A8 /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cr.tec.XeonWarsCtrl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,6 +447,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cr.tec.XeonWarsCtrl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -512,6 +528,7 @@
 				75B506231E8645B6004EE7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75B506241E8645B6004EE7A8 /* Build configuration list for PBXNativeTarget "XeonWarsCtrlTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +537,7 @@
 				75B506261E8645B6004EE7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75B506271E8645B6004EE7A8 /* Build configuration list for PBXNativeTarget "XeonWarsCtrlUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +546,7 @@
 				75B506291E8645B6004EE7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
