@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034616A1663855D8BC014DD8 /* Pods_XeonWarsCtrl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC2E2A39D93E0A985A42C87 /* Pods_XeonWarsCtrl.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		14B2143930B05B360050F085 /* Pods_XeonWarsCtrlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A6A8642B7A467517E1ABF4 /* Pods_XeonWarsCtrlTests.framework */; };
+		75443B601E95F2FB00BF0638 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75443B5F1E95F2FB00BF0638 /* MQTTManager.swift */; };
+		758F95691E962A460059C6C7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F95681E962A460059C6C7 /* MenuViewController.swift */; };
 		75B505FD1E8645B6004EE7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B505FC1E8645B6004EE7A8 /* AppDelegate.swift */; };
-		75B505FF1E8645B6004EE7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B505FE1E8645B6004EE7A8 /* ViewController.swift */; };
+		75B505FF1E8645B6004EE7A8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B505FE1E8645B6004EE7A8 /* GameViewController.swift */; };
 		75B506021E8645B6004EE7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B506001E8645B6004EE7A8 /* Main.storyboard */; };
 		75B506041E8645B6004EE7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B506031E8645B6004EE7A8 /* Assets.xcassets */; };
 		75B506071E8645B6004EE7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B506051E8645B6004EE7A8 /* LaunchScreen.storyboard */; };
 		75B506121E8645B6004EE7A8 /* XeonWarsCtrlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B506111E8645B6004EE7A8 /* XeonWarsCtrlTests.swift */; };
 		75B5061D1E8645B6004EE7A8 /* XeonWarsCtrlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B5061C1E8645B6004EE7A8 /* XeonWarsCtrlUITests.swift */; };
 		75B506321E873B69004EE7A8 /* MotionManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B506311E873B69004EE7A8 /* MotionManagement.swift */; };
+		7D1B7CFC6871CE8ECD2D279C /* Pods_XeonWarsCtrlUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A617791C2825DAE0714849B7 /* Pods_XeonWarsCtrlUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A3250CA9428A0E8A35B6FF /* Pods-XeonWarsCtrlUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrlUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrlUITests/Pods-XeonWarsCtrlUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0C9B9EEF25641B8FED35B9AE /* Pods-XeonWarsCtrlUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrlUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrlUITests/Pods-XeonWarsCtrlUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		153901B39FB72D11DB44AF2E /* Pods-XeonWarsCtrl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrl.release.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrl/Pods-XeonWarsCtrl.release.xcconfig"; sourceTree = "<group>"; };
+		31A6A8642B7A467517E1ABF4 /* Pods_XeonWarsCtrlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XeonWarsCtrlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DA65CE0CA0091160D44616 /* Pods-XeonWarsCtrlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrlTests/Pods-XeonWarsCtrlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75443B5F1E95F2FB00BF0638 /* MQTTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		758F95681E962A460059C6C7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		75B505F91E8645B6004EE7A8 /* XeonWarsCtrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XeonWarsCtrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B505FC1E8645B6004EE7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75B505FE1E8645B6004EE7A8 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75B505FE1E8645B6004EE7A8 /* GameViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; indentWidth = 3; path = GameViewController.swift; sourceTree = "<group>"; };
 		75B506011E8645B6004EE7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75B506031E8645B6004EE7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B506061E8645B6004EE7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +62,11 @@
 		75B5061E1E8645B6004EE7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B5062F1E873549004EE7A8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		75B506311E873B69004EE7A8 /* MotionManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManagement.swift; sourceTree = "<group>"; };
+		75FFE6651E960CA000A4B814 /* SwiftMQTT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMQTT.framework; path = "../../../Library/Developer/Xcode/DerivedData/XeonWarsCtrl-ctqzhbukyxclreanlfqgerabpjyt/Build/Products/Debug-iphonesimulator/SwiftMQTT/SwiftMQTT.framework"; sourceTree = "<group>"; };
+		A617791C2825DAE0714849B7 /* Pods_XeonWarsCtrlUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XeonWarsCtrlUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63A32AA0C81C9E9E9E004B8 /* Pods-XeonWarsCtrl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrl/Pods-XeonWarsCtrl.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC2E2A39D93E0A985A42C87 /* Pods_XeonWarsCtrl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XeonWarsCtrl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6133442953A90BAD515B934 /* Pods-XeonWarsCtrlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XeonWarsCtrlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XeonWarsCtrlTests/Pods-XeonWarsCtrlTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034616A1663855D8BC014DD8 /* Pods_XeonWarsCtrl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B2143930B05B360050F085 /* Pods_XeonWarsCtrlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1B7CFC6871CE8ECD2D279C /* Pods_XeonWarsCtrlUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +105,7 @@
 				75B5061B1E8645B6004EE7A8 /* XeonWarsCtrlUITests */,
 				75B505FA1E8645B6004EE7A8 /* Products */,
 				75B5062E1E873549004EE7A8 /* Frameworks */,
+				D18A1307E923FD2F5C21B513 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,12 +123,14 @@
 			isa = PBXGroup;
 			children = (
 				75B505FC1E8645B6004EE7A8 /* AppDelegate.swift */,
-				75B505FE1E8645B6004EE7A8 /* ViewController.swift */,
+				75B505FE1E8645B6004EE7A8 /* GameViewController.swift */,
 				75B506001E8645B6004EE7A8 /* Main.storyboard */,
 				75B506031E8645B6004EE7A8 /* Assets.xcassets */,
 				75B506051E8645B6004EE7A8 /* LaunchScreen.storyboard */,
 				75B506081E8645B6004EE7A8 /* Info.plist */,
 				75B506311E873B69004EE7A8 /* MotionManagement.swift */,
+				75443B5F1E95F2FB00BF0638 /* MQTTManager.swift */,
+				758F95681E962A460059C6C7 /* MenuViewController.swift */,
 			);
 			path = XeonWarsCtrl;
 			sourceTree = "<group>";
@@ -133,9 +156,26 @@
 		75B5062E1E873549004EE7A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75FFE6651E960CA000A4B814 /* SwiftMQTT.framework */,
 				75B5062F1E873549004EE7A8 /* SpriteKit.framework */,
+				EDC2E2A39D93E0A985A42C87 /* Pods_XeonWarsCtrl.framework */,
+				31A6A8642B7A467517E1ABF4 /* Pods_XeonWarsCtrlTests.framework */,
+				A617791C2825DAE0714849B7 /* Pods_XeonWarsCtrlUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18A1307E923FD2F5C21B513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A63A32AA0C81C9E9E9E004B8 /* Pods-XeonWarsCtrl.debug.xcconfig */,
+				153901B39FB72D11DB44AF2E /* Pods-XeonWarsCtrl.release.xcconfig */,
+				67DA65CE0CA0091160D44616 /* Pods-XeonWarsCtrlTests.debug.xcconfig */,
+				F6133442953A90BAD515B934 /* Pods-XeonWarsCtrlTests.release.xcconfig */,
+				0C9B9EEF25641B8FED35B9AE /* Pods-XeonWarsCtrlUITests.debug.xcconfig */,
+				06A3250CA9428A0E8A35B6FF /* Pods-XeonWarsCtrlUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B506211E8645B6004EE7A8 /* Build configuration list for PBXNativeTarget "XeonWarsCtrl" */;
 			buildPhases = (
+				93D6476AC42ED50C87DB5707 /* [CP] Check Pods Manifest.lock */,
 				75B505F51E8645B6004EE7A8 /* Sources */,
 				75B505F61E8645B6004EE7A8 /* Frameworks */,
 				75B505F71E8645B6004EE7A8 /* Resources */,
+				AF0C07D6937942A2A67F4462 /* [CP] Embed Pods Frameworks */,
+				97D0201D0FD7BC6942F0EF3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B506241E8645B6004EE7A8 /* Build configuration list for PBXNativeTarget "XeonWarsCtrlTests" */;
 			buildPhases = (
+				02780C3432A629BC7D35D73E /* [CP] Check Pods Manifest.lock */,
 				75B506091E8645B6004EE7A8 /* Sources */,
 				75B5060A1E8645B6004EE7A8 /* Frameworks */,
 				75B5060B1E8645B6004EE7A8 /* Resources */,
+				A4084D1148A6FA0DA217A509 /* [CP] Embed Pods Frameworks */,
+				67BED5493C7B0D5746AE1C71 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75B506271E8645B6004EE7A8 /* Build configuration list for PBXNativeTarget "XeonWarsCtrlUITests" */;
 			buildPhases = (
+				CC11643141B9FAA73D9FADCE /* [CP] Check Pods Manifest.lock */,
 				75B506141E8645B6004EE7A8 /* Sources */,
 				75B506151E8645B6004EE7A8 /* Frameworks */,
 				75B506161E8645B6004EE7A8 /* Resources */,
+				53CEECF52B21378D22ADEDE6 /* [CP] Embed Pods Frameworks */,
+				A75755B0CBB520C2383699A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,13 +319,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02780C3432A629BC7D35D73E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53CEECF52B21378D22ADEDE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrlUITests/Pods-XeonWarsCtrlUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67BED5493C7B0D5746AE1C71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrlTests/Pods-XeonWarsCtrlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D6476AC42ED50C87DB5707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97D0201D0FD7BC6942F0EF3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrl/Pods-XeonWarsCtrl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4084D1148A6FA0DA217A509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrlTests/Pods-XeonWarsCtrlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A75755B0CBB520C2383699A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrlUITests/Pods-XeonWarsCtrlUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0C07D6937942A2A67F4462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XeonWarsCtrl/Pods-XeonWarsCtrl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC11643141B9FAA73D9FADCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		75B505F51E8645B6004EE7A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				75B506321E873B69004EE7A8 /* MotionManagement.swift in Sources */,
-				75B505FF1E8645B6004EE7A8 /* ViewController.swift in Sources */,
+				758F95691E962A460059C6C7 /* MenuViewController.swift in Sources */,
+				75443B601E95F2FB00BF0638 /* MQTTManager.swift in Sources */,
+				75B505FF1E8645B6004EE7A8 /* GameViewController.swift in Sources */,
 				75B505FD1E8645B6004EE7A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +614,7 @@
 		};
 		75B506221E8645B6004EE7A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63A32AA0C81C9E9E9E004B8 /* Pods-XeonWarsCtrl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B4T48PBD9;
@@ -439,6 +629,7 @@
 		};
 		75B506231E8645B6004EE7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153901B39FB72D11DB44AF2E /* Pods-XeonWarsCtrl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B4T48PBD9;
@@ -453,6 +644,7 @@
 		};
 		75B506251E8645B6004EE7A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DA65CE0CA0091160D44616 /* Pods-XeonWarsCtrlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +660,7 @@
 		};
 		75B506261E8645B6004EE7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6133442953A90BAD515B934 /* Pods-XeonWarsCtrlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +676,7 @@
 		};
 		75B506281E8645B6004EE7A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9B9EEF25641B8FED35B9AE /* Pods-XeonWarsCtrlUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4B4T48PBD9;
@@ -497,6 +691,7 @@
 		};
 		75B506291E8645B6004EE7A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A3250CA9428A0E8A35B6FF /* Pods-XeonWarsCtrlUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4B4T48PBD9;

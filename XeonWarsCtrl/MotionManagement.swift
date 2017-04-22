@@ -21,7 +21,10 @@ class MotionManagement{
     var referenceY: Double = 0
     var referenceZ: Double = 0
     
+
+    
     let motionManager = CMMotionManager()
+
     
     func setReference(x: Double, y: Double, z: Double){
         referenceX = x * 100
@@ -35,22 +38,27 @@ class MotionManagement{
         referenceZ += self.currentZ
     }
     
-   
+    
+    func getDirectionJSON() -> Data{
+        let jsonDict = ["x" : floor(currentX/10), "y" : floor(currentY/10) ]
+        let toReturn = try! JSONSerialization.data(withJSONObject: jsonDict, options: .prettyPrinted)
+        return toReturn
+    }
 
 
     
-    func startUpdatingData(viewController: ViewController){
+    func startUpdatingData(mqttManager: MQTTManager){
         motionManager.accelerometerUpdateInterval = 0.05
 
         motionManager.startAccelerometerUpdates(to: OperationQueue.current!) { (accelerometerData: CMAccelerometerData?, NSError) -> Void in
             
             
             self.updateAccData(acceleration: accelerometerData!.acceleration)
-            viewController.accX?.text = "\(self.currentX).2f"
-            viewController.accY?.text = "\(self.currentY).2f"
-            viewController.accZ?.text = "\(self.currentZ).2f"
+
+            mqttManager.publish(data: self.getDirection())
+
             if(NSError != nil) {
-                print("\(NSError)")
+                print("\(String(describing: NSError))")
             }
         }
     }
@@ -62,15 +70,25 @@ class MotionManagement{
     }
     
     
-    func getDirection() -> String {
+    func getDirection() -> Data {
         var result = ""
         if currentX > 20{
-            result += "u"
+            result = "U"
         }
-        if 
+        if currentX < -20{
+            result = "D"
+        }
+        if currentY > 20{
+            result = "L"
+        }
+        if currentY < -20{
+            result = "R"
+        }
+        if (-20 < currentX && currentX < 20) && (-20 < currentY && currentY < 20) {
+            result = "C"
+        }
         
-        
-        return result
+        return result.data(using: .utf8)!
     }
     
 }

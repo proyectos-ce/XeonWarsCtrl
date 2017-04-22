@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-XeonWarsCtrl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-XeonWarsCtrlTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-XeonWarsCtrlUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftMQTT.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04074D10766FE80337A3926BBC3D94BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>989F2E6947942314900589FAE3DD5989</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C375C46424B82FAA3F256F52F018296E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7581FD9C0641FB1A932B235836C6CA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

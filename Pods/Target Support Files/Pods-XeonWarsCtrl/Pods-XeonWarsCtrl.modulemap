@@ -1,0 +1,6 @@
+framework module Pods_XeonWarsCtrl {
+  umbrella header "Pods-XeonWarsCtrl-umbrella.h"
+
+  export *
+  module * { export * }
+}
